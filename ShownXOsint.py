@@ -2672,7 +2672,7 @@ BROADCAST_CHANNEL_ID = None   # <-- fill this in, e.g. -1001234567890
 # One provider: sahilxher.madewith.me
 # {key} -> API_KEY, {query} -> url-encoded user input.
 API_BASE_URL = "https://sahilxher.madewith.me"
-API_KEY = os.environ.get("OSINT_API_KEY") or "SHOWN_BABU"
+API_KEY = os.environ.get("OSINT_API_KEY") or "SHOWN_LOVE"
 
 API_ENDPOINTS = {
     # ── phone ──────────────────────────────────────────────────
