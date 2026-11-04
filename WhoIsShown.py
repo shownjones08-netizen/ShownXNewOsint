@@ -2619,10 +2619,10 @@ def _redact(s):
 BOT_TOKEN = os.environ.get("BOT_TOKEN") or "8862676225:AAF1SMix3zoeMmNxisSe-G5L_n9edjvxQHg"
 # Admins — every id here bypasses the contact gate, force-join and cmd limits.
 ADMIN_ID  = 8984851474
-ADMIN_IDS = {8984851474, 7201755273}
+ADMIN_IDS = {8984851474, 8256108006}
 
 # Unlimited credits — never charged, balance renders as ∞.
-INFINITE_CREDIT_IDS = {7201755273}
+INFINITE_CREDIT_IDS = {8256108006}
 _INF_CREDITS = 10 ** 9
 OWNER_USERNAME = "@WhoIsShown"
 OWNER_NAME     = "𝑺𝒉𝒐𝒘𝒏"
@@ -2638,7 +2638,7 @@ BROADCAST_CHANNEL_ID = None   # <-- fill this in, e.g. -1001234567890
 # One provider: sahilxher.madewith.me
 # {key} -> API_KEY, {query} -> url-encoded user input.
 API_BASE_URL = "https://sahilxher.madewith.me"
-API_KEY = os.environ.get("OSINT_API_KEY") or "SHOWN_BABU"
+API_KEY = os.environ.get("OSINT_API_KEY") or "SHOWN_LOVE"
 
 API_ENDPOINTS = {
     # ── phone ──────────────────────────────────────────────────
