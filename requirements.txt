@@ -1,3 +1,4 @@
 pyTelegramBotAPI
 requests
 urllib3
+pyTelegramBotAPI>=4.31.0
