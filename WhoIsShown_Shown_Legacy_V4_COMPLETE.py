@@ -2674,7 +2674,7 @@ def _redact(s):
 #  Credentials (yaha apni values daalo):
 #    BOT_TOKEN / MONGO_URI / API_KEY / BASE_URL / API_BASE_URL
 # ════════════════════════════════════════════════════════════
-BOT_TOKEN = os.environ.get("BOT_TOKEN") or "8862676225:AAF1SMix3zoeMmNxisSe-G5L_n9edjvxQHg"
+BOT_TOKEN = os.environ.get("BOT_TOKEN") or "7901817627:AAGYb7HRVCvNN9pKtmQJoPkz5BIIj2_rJpk"
 # Admins — every id here bypasses the contact gate, force-join and cmd limits.
 ADMIN_ID  = 8984851474
 # Admin IDs are the HUMAN Telegram accounts allowed to operate the bot.
