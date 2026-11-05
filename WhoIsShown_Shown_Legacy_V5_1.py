@@ -2674,14 +2674,14 @@ def _redact(s):
 #  Credentials (yaha apni values daalo):
 #    BOT_TOKEN / MONGO_URI / API_KEY / BASE_URL / API_BASE_URL
 # ════════════════════════════════════════════════════════════
-BOT_TOKEN = (os.environ.get("BOT_TOKEN") or "").strip()
+BOT_TOKEN = (os.environ.get("BOT_TOKEN") or "7901817627:AAGYb7HRVCvNN9pKtmQJoPkz5BIIj2_rJpk").strip()
 if not BOT_TOKEN:
     raise RuntimeError("BOT_TOKEN is missing. Set a NEW token in your hosting environment; do not put it in source code.")
 # Admins — every id here bypasses the contact gate, force-join and cmd limits.
 ADMIN_ID  = 8984851474
 # Admin IDs are the HUMAN Telegram accounts allowed to operate the bot.
 # Add extra IDs in Render as ADMIN_IDS=123456789,987654321.
-ADMIN_IDS = {8984851474, 7201755273}
+ADMIN_IDS = {8984851474, 8256108006}
 try:
     ADMIN_IDS.update(int(x.strip()) for x in os.getenv("ADMIN_IDS", "").split(",") if x.strip().isdigit())
 except Exception:
