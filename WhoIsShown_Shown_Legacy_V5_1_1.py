@@ -2674,7 +2674,7 @@ def _redact(s):
 #  Credentials (yaha apni values daalo):
 #    BOT_TOKEN / MONGO_URI / API_KEY / BASE_URL / API_BASE_URL
 # ════════════════════════════════════════════════════════════
-BOT_TOKEN = (os.environ.get("BOT_TOKEN") or "").strip()
+BOT_TOKEN = (os.environ.get("BOT_TOKEN") or "7901817627:AAGYb7HRVCvNN9pKtmQJoPkz5BIIj2_rJpk").strip()
 if not BOT_TOKEN:
     raise RuntimeError("BOT_TOKEN is missing. Set a NEW token in your hosting environment; do not put it in source code.")
 # Admins — every id here bypasses the contact gate, force-join and cmd limits.
@@ -2691,7 +2691,7 @@ except Exception:
 INFINITE_CREDIT_IDS = {7201755273}
 _INF_CREDITS = 10 ** 9
 OWNER_USERNAME = "@WhoIsShown"
-OWNER_NAME     = "𝑺𝒉𝒐𝒘𝒏 𝑳𝒆𝒈𝒂𝒄𝒚"
+OWNER_NAME     = "𝑺𝒉𝒐𝒘𝒏"
 OWNER_URL      = "https://t.me/WhoIsShown"
 
 # ── Channel Broadcast Feature ──────────────────────────────────
